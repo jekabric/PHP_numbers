@@ -1,5 +1,4 @@
 <?php
-    
     $objects = [4, 5, -3, 15, -2, 19, 6, -2, -4, 20, -17];
     
     function getnumbers($objects){
@@ -20,10 +19,8 @@
                 $odd++;
             }
         }
-
         echo "Array has $negative negative, $positive positive, $odd odd and $even even numbers.";
     }
 
     getnumbers($objects);
-
 ?>
